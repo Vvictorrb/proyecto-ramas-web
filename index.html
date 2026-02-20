@@ -1,11 +1,64 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Museo de Coches Clásicos</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    
+
+<header>
+    <h1>Museo de Coches Clásicos</h1>
+    <p>Descubre la historia del automóvil</p>
+</header>
+
+<nav>
+    <a href="#inicio">Inicio</a>
+    <a href="#coches">Coches</a>
+    <a href="#contacto">Contacto</a>
+</nav>
+
+<section id="inicio">
+    <h2>Bienvenidos</h2>
+    <p>En nuestro museo podrás ver algunos de los coches más icónicos de la historia.</p>
+</section>
+
+<section id="coches">
+    <h2>Nuestros Coches</h2>
+
+    <div class="coche">
+        <h3>Ford Mustang 1967</h3>
+        <img src="https://via.placeholder.com/400x250" alt="Ford Mustang 1967">
+        <p>Un clásico americano con gran potencia y diseño deportivo.</p>
+        <button onclick="mostrarInfo('Mustang')">Más información</button>
+    </div>
+
+    <div class="coche">
+        <h3>Ferrari F40</h3>
+        <img src="https://via.placeholder.com/400x250" alt="Ferrari F40">
+        <p>Uno de los superdeportivos más legendarios de la historia.</p>
+        <button onclick="mostrarInfo('F40')">Más información</button>
+    </div>
+
+    <div class="coche">
+        <h3>Volkswagen Escarabajo</h3>
+        <img src="https://via.placeholder.com/400x250" alt="Volkswagen Escarabajo">
+        <p>Un coche icónico conocido por su diseño único y popularidad mundial.</p>
+        <button onclick="mostrarInfo('Escarabajo')">Más información</button>
+    </div>
+
+</section>
+
+<section id="contacto">
+    <h2>Contacto</h2>
+    <p>Email: info@museocoches.com</p>
+    <p>Teléfono: 123-456-789</p>
+</section>
+
+<footer>
+    <p>&copy; 2026 Museo de Coches Clásicos</p>
+</footer>
+
+<script src="script.js"></script>
 </body>
 </html>
